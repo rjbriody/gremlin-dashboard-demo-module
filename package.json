@@ -1,0 +1,23 @@
+{
+    "name": "gremlin-dashboard-demo-module",
+    "version": "0.0.0",
+    "description": "Example dashboard module for the Gremlin Dashboard.",
+    "author": "Bob Briody",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rjbriody/gremlin-dashboard-demo-module.git"
+    },
+    "license": "Apache v2",
+    "homepage": "https://github.com/rjbriody/gremlin-dashboard-demo-module",
+    "main": "index.js",
+    "style": "index.css",
+    "browserify": {
+        "transform": [
+            "browserify-shim",
+            "partialify"
+        ]
+    },
+    "browserify-shim": {
+        "angular": "global:angular"
+    }
+}
