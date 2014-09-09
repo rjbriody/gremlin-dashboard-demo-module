@@ -1,5 +1,10 @@
 'use strict';
 
+/**
+ * Gremlin Dashboard Demo Module
+ * 
+ */
+
 module.exports = function () {
 
   return {
